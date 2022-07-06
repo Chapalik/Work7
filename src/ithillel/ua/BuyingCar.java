@@ -8,7 +8,7 @@ public class BuyingCar {
         BuyingCarTest1 car = new BuyingCarTest1();
 
 
-        if (customer.age >= 18) {
+        if (customer.age < 18) {
             System.out.println("Dear " +customer.name+ " Sorry, come via " + (18 - customer.age) );
         } else {
             System.out.println("Dear " +customer.name+ " Excellent, go to the purchase ");
